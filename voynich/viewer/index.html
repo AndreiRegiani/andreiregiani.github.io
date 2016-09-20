@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Full transcription of the Voynich Manuscript">
+    <meta name="author" content="Andrei Regiani (regiani.xyz)">
+    <title>Voynich Viewer</title>
+    <!-- CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../font/voynich.css" rel="stylesheet">
+    <link href="viewer.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <h1>Voynich Viewer <span class="small">1.0</span></h1>
+        <p>By <a href="http://regiani.xyz" target="_blank">regiani.xyz</a></p>
+        <p>About <a href="https://en.wikipedia.org/wiki/Voynich_manuscript" target="_blank">Voynich Manuscript</a></p>
+        <p>Transcription alphabet: <a href="#">EVA captalized</a>, Transcriber: <a href="#">Takahashi</a>, TTF font by <a href="#">Guy</a></p>Add changelog
+        <p><a href="#">Download in text format</a></p>
+
+        <p>
+            <button type="button" class="btn btn-primary" id="buttonVoynich">Voynich Alphabet</button>
+            <button type="button" class="btn btn-default" id="buttonTranscription">Transcription</button>
+            <button type="button" class="btn btn-warning" id="buttonViewScan">View Scan</button>
+        </p>
+
+        <p>
+            Folio:
+            <select id="folio-select">
+                <option>f1r</option>
+                <option>f1v</option>
+                <option>f2r</option>
+                <option>f2v</option>
+                <option>f3r</option>
+                <option>f3v</option>
+                <option>f4r</option>
+                <option>f4v</option>
+                <option>f5r</option>
+                <option>f5v</option>
+                <option>f6r</option>
+                <option>f6v</option>
+                <option>f7r</option>
+                <option>f7v</option>
+                <option>f8r</option>
+                <option>f8v</option>
+                <option>f9r</option>
+                <option>f9v</option>
+                <option>f10r</option>
+                <option>f10v</option>
+                <option>f11r</option>
+                <option>f11v</option>
+                <option>f12r</option>
+                <option>f12v</option>
+                <option>f13r</option>
+                <option>f13v</option>
+                <option>f14r</option>
+                <option>f14v</option>
+                <option>f15r</option>
+                <option>f15v</option>
+                <option>f16r</option>
+                <option>f16v</option>
+                <option>f17r</option>
+                <option>f17v</option>
+                <option>f18r</option>
+                <option>f18v</option>
+                <option>f19r</option>
+                <option>f19v</option>
+                <option>f20r</option>
+                <option>f20v</option>
+                <option>f21r</option>
+                <option>f21v</option>
+                <option>f22r</option>
+                <option>f22v</option>
+                <option>f23r</option>
+                <option>f23v</option>
+                <option>f24r</option>
+                <option>f24v</option>
+                <option>f25r</option>
+                <option>f25v</option>
+                <option>f26r</option>
+                <option>f26v</option>
+                <option>f27r</option>
+                <option>f27v</option>
+                <option>f28r</option>
+                <option>f28v</option>
+                <option>f29r</option>
+                <option>f29v</option>
+                <option>f30r</option>
+                <option>f30v</option>
+                <option>f31r</option>
+                <option>f31v</option>
+                <option>f32r</option>
+                <option>f32v</option>
+                <option>f33r</option>
+                <option>f33v</option>
+                <option>f34r</option>
+                <option>f34v</option>
+                <option>f35r</option>
+                <option>f35v</option>
+                <option>f36r</option>
+                <option>f36v</option>
+                <option>f37r</option>
+                <option>f37v</option>
+                <option>f38r</option>
+                <option>f38v</option>
+                <option>f39r</option>
+                <option>f39v</option>
+                <option>f40r</option>
+                <option>f40v</option>
+                <option>f41r</option>
+                <option>f41v</option>
+                <option>f42r</option>
+                <option>f42v</option>
+                <option>f43r</option>
+                <option>f43v</option>
+                <option>f44r</option>
+                <option>f44v</option>
+                <option>f45r</option>
+                <option>f45v</option>
+                <option>f46r</option>
+                <option>f46v</option>
+                <option>f47r</option>
+                <option>f47v</option>
+                <option>f48r</option>
+                <option>f48v</option>
+                <option>f49r</option>
+                <option>f49v</option>
+                <option>f50r</option>
+                <option>f50v</option>
+                <option>f51r</option>
+                <option>f51v</option>
+                <option>f52r</option>
+                <option>f52v</option>
+                <option>f53r</option>
+                <option>f53v</option>
+                <option>f54r</option>
+                <option>f54v</option>
+                <option>f55r</option>
+                <option>f55v</option>
+                <option>f56r</option>
+                <option>f56v</option>
+                <option>f57r</option>
+                <option>f57v</option>
+                <option>f58r</option>
+                <option>f58v</option>
+                <option>f59r</option>
+                <option>f59v</option>
+                <option>f60r</option>
+                <option>f60v</option>
+                <option>f61r</option>
+                <option>f61v</option>
+                <option>f62r</option>
+                <option>f62v</option>
+                <option>f63r</option>
+                <option>f63v</option>
+                <option>f64r</option>
+                <option>f64v</option>
+                <option>f65r</option>
+                <option>f65v</option>
+                <option>f66r</option>
+                <option>f66v</option>
+                <option>f67r1</option>
+                <option>f67r2</option>
+                <option>f67v2</option>
+                <option>f67v1</option>
+                <option>f68r1</option>
+                <option>f68r2</option>
+                <option>f68r3</option>
+                <option>f68v3</option>
+                <option>f68v2</option>
+                <option>f68v1</option>
+                <option>f69r</option>
+                <option>f69v</option>
+                <option>f70r1</option>
+                <option>f70r2</option>
+                <option>f70v2</option>
+                <option>f70v1</option>
+                <option>f71r</option>
+                <option>f71v</option>
+                <option>f72r1</option>
+                <option>f72r2</option>
+                <option>f72r3</option>
+                <option>f72v3</option>
+                <option>f72v2</option>
+                <option>f72v1</option>
+                <option>f73r</option>
+                <option>f73v</option>
+                <option>f74r</option>
+                <option>f74v</option>
+                <option>f75r</option>
+                <option>f75v</option>
+                <option>f76r</option>
+                <option>f76v</option>
+                <option>f77r</option>
+                <option>f77v</option>
+                <option>f78r</option>
+                <option>f78v</option>
+                <option>f79r</option>
+                <option>f79v</option>
+                <option>f80r</option>
+                <option>f80v</option>
+                <option>f81r</option>
+                <option>f81v</option>
+                <option>f82r</option>
+                <option>f82v</option>
+                <option>f83r</option>
+                <option>f83v</option>
+                <option>f84r</option>
+                <option>f84v</option>
+                <option>f85r1</option>
+                <option>f85r2</option>
+                <option>f86v4</option>
+                <option>f86v6</option>
+                <option>f85v2</option>
+                <option>f86v5</option>
+                <option>f86v3</option>
+                <option>f87r</option>
+                <option>f87v</option>
+                <option>f88r</option>
+                <option>f88v</option>
+                <option>f89r1</option>
+                <option>f89r2</option>
+                <option>f89v2</option>
+                <option>f89v1</option>
+                <option>f90r1</option>
+                <option>f90r2</option>
+                <option>f90v2</option>
+                <option>f90v1</option>
+                <option>f91r</option>
+                <option>f91v</option>
+                <option>f92r</option>
+                <option>f92v</option>
+                <option>f93r</option>
+                <option>f93v</option>
+                <option>f94r</option>
+                <option>f94v</option>
+                <option>f95r1</option>
+                <option>f95r2</option>
+                <option>f95v2</option>
+                <option>f95v1</option>
+                <option>f96r</option>
+                <option>f96v</option>
+                <option>f97r</option>
+                <option>f97v</option>
+                <option>f98r</option>
+                <option>f98v</option>
+                <option>f99r</option>
+                <option>f99v</option>
+                <option>f100r</option>
+                <option>f100v</option>
+                <option>f101r1</option>
+                <option>f101r2</option>
+                <option>f101v2</option>
+                <option>f101v1</option>
+                <option>f102r1</option>
+                <option>f102r2</option>
+                <option>f102v2</option>
+                <option>f102v1</option>
+                <option>f103r</option>
+                <option>f103v</option>
+                <option>f104r</option>
+                <option>f104v</option>
+                <option>f105r</option>
+                <option>f105v</option>
+                <option>f106r</option>
+                <option>f106v</option>
+                <option>f107r</option>
+                <option>f107v</option>
+                <option>f108r</option>
+                <option>f108v</option>
+                <option>f109r</option>
+                <option>f109v</option>
+                <option>f110r</option>
+                <option>f110v</option>
+                <option>f111r</option>
+                <option>f111v</option>
+                <option>f112r</option>
+                <option>f112v</option>
+                <option>f113r</option>
+                <option>f113v</option>
+                <option>f114r</option>
+                <option>f114v</option>
+                <option>f115r</option>
+                <option>f115v</option>
+                <option>f116r</option>
+                <option>f116v</option>
+            </select>
+        </p>
+
+
+        <div id="voynich-text">
+
+
+
+
+            <a href="/voynich/words/fachys.html" class="word word-fachys">fachys</a>
+            <a href="/voynich/words/ykal.html" class="word word-ykal">ykal</a>
+            <a href="/voynich/words/ar.html" class="word word-ar">ar</a>
+            <a href="/voynich/words/ataiin.html" class="word word-ataiin">ataiin</a>
+            <a href="/voynich/words/Shol.html" class="word word-Shol">Shol</a>
+            <a href="/voynich/words/Shory.html" class="word word-Shory">Shory</a>
+            <a href="/voynich/words/cThres.html" class="word word-cThres">cThres</a>
+            <a href="/voynich/words/y.html" class="word word-y">y</a>
+            <a href="/voynich/words/kor.html" class="word word-kor">kor</a>
+            <a href="/voynich/words/Sholdy.html" class="word word-Sholdy">Sholdy</a>
+            <br>
+            <a href="/voynich/words/sory.html" class="word word-sory">sory</a>
+            <a href="/voynich/words/cKhar.html" class="word word-cKhar">cKhar</a>
+            <a href="/voynich/words/or.html" class="word word-or">or</a>
+            <a href="/voynich/words/y.html" class="word word-y">y</a>
+            <a href="/voynich/words/kair.html" class="word word-kair">kair</a>
+            <a href="/voynich/words/chtaiin.html" class="word word-chtaiin">chtaiin</a>
+            <a href="/voynich/words/Shar.html" class="word word-Shar">Shar</a>
+            <a href="/voynich/words/are.html" class="word word-are">are</a>
+            <a href="/voynich/words/cThar.html" class="word word-cThar">cThar</a>
+            <a href="/voynich/words/cThar.html" class="word word-cThar">cThar</a>
+            <a href="/voynich/words/dan.html" class="word word-dan">dan</a>
+            <br>
+            <a href="/voynich/words/syaiir.html" class="word word-syaiir">syaiir</a>
+            <a href="/voynich/words/Sheky.html" class="word word-Sheky">Sheky</a>
+            <a href="/voynich/words/or.html" class="word word-or">or</a>
+            <a href="/voynich/words/ykaiin.html" class="word word-ykaiin">ykaiin</a>
+            <a href="/voynich/words/Shod.html" class="word word-Shod">Shod</a>
+            <a href="/voynich/words/cThoary.html" class="word word-cThoary">cThoary</a>
+            <a href="/voynich/words/cThes.html" class="word word-cThes">cThes</a>
+            <a href="/voynich/words/daraiin.html" class="word word-daraiin">daraiin</a>
+
+
+
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="viewer.js"></script>
+</body>
+
+</html>

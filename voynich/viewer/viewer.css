@@ -1,0 +1,22 @@
+#voynich-text {
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: "Voynich";
+    line-height: 170%;
+    padding: 20px;
+    background-image: url('background.png');
+    background-repeat:repeat;
+}
+
+#voynich-text a {
+    color: #95775F;
+}
+
+#voynich-text a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.transcription-font {
+    font-family: "Lucida Console", Monaco, monospace;
+}

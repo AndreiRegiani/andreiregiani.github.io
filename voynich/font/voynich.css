@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'Voynich';
+	src: url('EVA-Hand1.eot');
+	src: url('EVA-Hand1.eot?#iefix') format('embedded-opentype'),
+		url('EVA-Hand1.woff') format('woff'),
+		url('EVA-Hand1.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.voynich {
+        font-family: 'Voynich';
+}
