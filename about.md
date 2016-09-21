@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Hello there. I'm specializing in Python for back-end, automation scripts and data analysis, with focus in security as well. *Seriously your passwords are still stored in plain-text?*
+Hello there. I'm a software developer specializing in Python for web development, automation scripts and data analysis.
 
 ## Bio
-Born in Brazil, 1992, I started coding at the age of thirteen in C/C++, programming has been my hobby and profession since then. After have worked with PHP, C++ and Haxe, today I choose Python for most of my projects.
+Born in Brazil, 1992, I started coding at the age of thirteen in C/C++, programming has been my hobby and profession since then. After working with PHP, C++ and Haxe, for the last years Python has become my primary language for new projects.
 
 ## Places lived
 * Ukraine (present)
