@@ -108,6 +108,9 @@ strong, b {
 
 img {
   max-width: 100%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -281,6 +284,14 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.highlighter-rouge {
+    background-color: #EBEBEB;
+}
+
+del {
+    color: #9A9A9A;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
