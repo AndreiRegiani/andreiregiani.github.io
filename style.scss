@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 30px;
   a {
     color: inherit;
   }
@@ -65,7 +65,7 @@ h4 {
 }
 
 p {
-  margin: 35px 0;
+  margin-bottom: 35px;
 }
 
 a {
@@ -245,7 +245,7 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding-bottom: 10px;
   border-bottom: 1px solid $lightGray;
 }
 
@@ -270,7 +270,7 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
@@ -292,6 +292,12 @@ footer {
 
 del {
     color: #9A9A9A;
+}
+
+#telegram-channel {
+    float: right;
+    margin-top: -10px;
+    font-size: 17px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

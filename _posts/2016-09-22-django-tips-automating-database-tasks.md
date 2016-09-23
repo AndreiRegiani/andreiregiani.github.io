@@ -3,7 +3,7 @@ layout: post
 title: "Django tips: Automating Database Tasks"
 ---
 
-Learn how to access your Django models in an simple, independent Python script.
+Learn how to access your Django models from a standalone Python script.
 
 Django is not a minimal framework, it feels you can't escape its architecture, and not everything needs to be inside view, inside an app. There's a way to write standalone scripts, I usually use them to populate sample data in a development environment, so a new developer can clone the repository, run the populate script in order to have some basic data on his/her local server, in many cases a project will not work with an empty database, when configurations are stored in a model.
 
