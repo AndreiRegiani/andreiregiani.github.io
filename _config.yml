@@ -1,6 +1,6 @@
 name: Andrei Regiani
 description: Tech Blog
-avatar: https://regiani.xyz/images/avatar.png
+avatar: //regiani.xyz/images/avatar.png
 
 # Includes an icon in the footer for each username you enter
 footer-links:
@@ -27,7 +27,7 @@ google_analytics: UA-84668010-1
 
 url: https://regiani.xyz
 enforce_ssl: regiani.xyz
-baseurl: //regiani.xyz/
+baseurl: https://regiani.xyz
 
 # Advanced:
 
