@@ -9,9 +9,15 @@ html {
 }
 
 body {
-    background: $white;
+    background: #CDD6E5;
     font: 20px/1.6 $helvetica;
     color: $darkGray;
+}
+
+.paperback {
+    background: white;
+    max-width: 870px;
+    margin: 0 auto;
 }
 
 .container {
