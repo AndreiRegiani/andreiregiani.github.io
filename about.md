@@ -7,7 +7,7 @@ permalink: /about/
 Hello there. I'm a software developer specializing in Python for web development, automation scripts and data analysis.
 
 ## Bio
-Born in Brazil (1992), started coding at the age of thirteen in C, programming has been my hobby and profession since then. After working with PHP, C++ and Haxe, for the last years Python has become my favorite language for new projects. [Résumé](/resume)
+Born in Brazil (1992), started coding at the age of thirteen in C, programming has been my hobby and profession since then. After working with PHP, C++ and Haxe, for the last years Python has become my favorite language for new projects.
 
 ## Places lived
 * **Ukraine (present)**
