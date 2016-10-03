@@ -29,7 +29,6 @@ permalink: /projects/
 
 # Screenshots
 
-![_config.yml]({{ site.baseurl }}/images/projects/a-1.jpg)
 ![_config.yml]({{ site.baseurl }}/images/projects/g-1.png)
 ![_config.yml]({{ site.baseurl }}/images/projects/g-2.png)
 ![_config.yml]({{ site.baseurl }}/images/projects/n-1.png)
@@ -40,3 +39,5 @@ permalink: /projects/
 ![_config.yml]({{ site.baseurl }}/images/projects/o-3.jpg)
 ![_config.yml]({{ site.baseurl }}/images/projects/o-4.jpg)
 ![_config.yml]({{ site.baseurl }}/images/projects/p-1.jpg)
+![_config.yml]({{ site.baseurl }}/images/projects/a-1.jpg)
+![_config.yml]({{ site.baseurl }}/images/projects/t-1.png)
