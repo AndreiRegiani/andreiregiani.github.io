@@ -13,3 +13,7 @@ In this section I'll be posting my on-going research, the goal is to create tool
 I will curate previous research done by other people, keep in mind there are many pseudo-scientific blogs and YouTube videos that claimed to have deciphered it, with unconvincing hypothesis.
 
 [Go Back](/voynich-manuscript)
+
+### Further Reading
+* http://www.voynich.nu/
+* http://www.ic.unicamp.br/~stolfi/voynich/
