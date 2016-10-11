@@ -22,7 +22,7 @@ Many different transcription alphabets were created in the last 70 years to help
 ### Results
 
 * Wordlist Frequency
-* Wordlist Alphabetically
+* Wordlist Alphabetical
 * Wordlist Longest
 * Letter Frequency
 * Suffix Frequencies
