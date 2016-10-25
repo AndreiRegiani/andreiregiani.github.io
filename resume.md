@@ -7,14 +7,18 @@ permalink: /resume/
 [Email](mailto:andrei.cpp@gmail.com) - [GitHub](https://github.com/AndreiRegiani) - [LinkedIn](https://www.linkedin.com/in/AndreiRegiani) - [Telegram](https://telegram.me/regxyz)
 
 ## Skills
-**Python, Flask, Django, Linux, PostgreSQL, Git, Bootstrap, jQuery**
+**Python, Flask, REST API, Django, Linux, PostgreSQL, Git, SSH**
 
-BeautifulSoup, SQLAlchemy, Requests, NumPy, Pandas, SSH, web security, Agile, Jira, MySQL, SQLite, Qt Framework, Gimp
+Bootstrap, jQuery, web scraping, JWT, Test-Driven-Development, NumPy/Pandas, web security, Jira, MySQL, Qt Framework, Gimp
 
 ## Experience
+* **Python Backend Engineer** at [EitherSoft.com](https://eithersoft.com){:target="_blank"}
+
+`Oct-2016 Present` Ukraine (Lviv)
+
 * **Python Full Stack** at [Openhand.co.il](http://openhand.co.il){:target="_blank"}
 
-`May-July 2016` Ukraine (Lviv)
+`May-Jul 2016` Ukraine (Lviv)
 
 * **C++ Programmer** at [CactusSoft.biz](http://cactussoft.biz){:target="_blank"}
 
