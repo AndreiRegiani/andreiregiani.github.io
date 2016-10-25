@@ -14,7 +14,7 @@ Bootstrap, jQuery, web scraping, JWT, Test-Driven-Development, NumPy/Pandas, web
 ## Experience
 * **Python Backend Engineer** at [EitherSoft.com](https://eithersoft.com){:target="_blank"}
 
-`Oct-2016 Present` Ukraine (Lviv)
+`Oct-2016 Present` Ukraine (Kiev)
 
 * **Python Full Stack** at [Openhand.co.il](http://openhand.co.il){:target="_blank"}
 
