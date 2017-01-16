@@ -4,12 +4,26 @@ title: Résumé
 permalink: /resume/
 ---
 
-[Email](mailto:andrei.cpp@gmail.com) - [GitHub](https://github.com/AndreiRegiani) - [LinkedIn](https://www.linkedin.com/in/AndreiRegiani) - [Telegram](https://telegram.me/regxyz)
+[Email](mailto:andrei.cpp@gmail.com) - [GitHub](https://github.com/AndreiRegiani) - [LinkedIn](https://www.linkedin.com/in/AndreiRegiani) - [Telegram](https://telegram.me/andrei_xyz)
+
+Generalist Software Developer, specializing in Python for the web / back-end.
+
+I have participated in many full-cycle product creation for different industries and platforms (web, mobile, desktop), contributing since the planning stage and software architecture, until the public release of the product/service.
+
+Broad international experience and good communication skills, have lived in Brazil, Bolivia, Belarus and now Ukraine.
 
 ## Skills
-**Python, Flask, REST API, Django, Linux, PostgreSQL, Git, SSH**
+* Django, Flask, Falcon, RESTful API
+* PostgreSQL, MySQL, MongoDB
+* HTML/CSS/JS with Bootstrap, jQuery, Angular
+* Git, SSH, unit tests, continuous integration (CI)
+* Agile methologies, JIRA, GitLab, GitHub
+* Linux, Ubuntu for development
+* Payment APIs, Social APIs (Facebook, Twitter), JWT, OAuth2
+* OOP, MVC, Test-Driven Development
+* Web scraping, infosec, automation scripts
 
-Bootstrap, jQuery, web scraping, JWT, Test-Driven-Development, NumPy/Pandas, web security, Jira, MySQL, Qt Framework, Gimp
+Previous experience with C++ (graphics programming and Qt), Gamedev (Unity3D), Haxe and PHP.
 
 ## Experience
 * **Python Backend Engineer** at [EitherSoft.com](https://eithersoft.com){:target="_blank"}
