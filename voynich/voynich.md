@@ -4,6 +4,8 @@ title: Voynich Manuscript
 permalink: /voynich-manuscript/
 ---
 
+** Under Development **
+
 My on-going research using techniques of computer analysis to extract useful information for cracking this mysterious manuscript. [Introduction on the manuscript and links for further reading.](/voynich-manuscript/introduction)
 
 ### Raw data

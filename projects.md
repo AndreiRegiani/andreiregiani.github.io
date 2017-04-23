@@ -4,15 +4,30 @@ title: Projects
 permalink: /projects/
 ---
 
-## Personal
-* **[Domicilios.com.bo](http://domicilios.com.bo/)**
-`Python, Django`
+## Open Source
+* **[falcon-mongo-template](https://github.com/AndreiRegiani/falcon-mongo-template)**
 
+* **[falcon-jsonify](https://github.com/AndreiRegiani/falcon-jsonify)**
+
+* **[wikipedia-crawler](https://github.com/AndreiRegiani/wikipedia-crawler)**
+
+* **[Operation Nautak](https://github.com/AndreiRegiani/2012-OperationNautak)**
+
+* **[IoT-weather](https://github.com/AndreiRegiani/IoT-weather)**
+
+
+## Personal
 * **[Analysis of Voynich Manuscript](/voynich-manuscript)**
 `Python, Linguistics`
 
 
 ## Commercial
+* **[Domicilios.com.bo](http://domicilios.com.bo/)**
+`Python, Django`
+
+* **[Cersafe.com](http://cersafe.com/)**
+`Python, Django`
+
 * **[DHL Messenger](http://cactussoft.biz/dhl-messenger/)**
 `C++, Qt Framework`
 
