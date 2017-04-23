@@ -6,13 +6,9 @@ permalink: /projects/
 
 ## Open Source
 * **[falcon-mongo-template](https://github.com/AndreiRegiani/falcon-mongo-template)**
-
 * **[falcon-jsonify](https://github.com/AndreiRegiani/falcon-jsonify)**
-
 * **[wikipedia-crawler](https://github.com/AndreiRegiani/wikipedia-crawler)**
-
 * **[Operation Nautak](https://github.com/AndreiRegiani/2012-OperationNautak)**
-
 * **[IoT-weather](https://github.com/AndreiRegiani/IoT-weather)**
 
 
@@ -24,10 +20,8 @@ permalink: /projects/
 ## Commercial
 * **[Domicilios.com.bo](http://domicilios.com.bo/)**
 `Python, Django`
-
 * **[Cersafe.com](http://cersafe.com/)**
 `Python, Django`
-
 * **[DHL Messenger](http://cactussoft.biz/dhl-messenger/)**
 `C++, Qt Framework`
 
@@ -35,10 +29,8 @@ permalink: /projects/
 ## Gamedev
 * **[Gorilla Go!](https://play.google.com/store/apps/details?id=com.ignitergames.gorilla)**
 `Haxe, Mobile`
-
 * **[Destiny's Handbook](https://play.google.com/store/apps/details?id=com.ignitergames.MrDestiny)**
 `C++, Cocos2D-x, Mobile`
-
 * **[Operation Nautak](http://www.newgrounds.com/portal/view/624662)**
 `AS3, Web`
 
